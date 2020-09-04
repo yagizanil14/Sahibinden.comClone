@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.bodyApp{
+    width: 71rem;
+    position: relative;
+    margin: auto;
+}
+.divLeft{
+    float: left;
+}
+.divProducts{
+    width: 50rem;
+    position: relative;
+    margin: auto;
+}
+
+.bannerImg{
+    width: 70rem;
+    height: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}

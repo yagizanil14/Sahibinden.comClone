@@ -1,2 +1,5 @@
 export * from "./RenderProdItem"
 export * from "./Header"
+export * from "./Category"
+export * from "./ProductsComp"
+export * from "./TSGComp"

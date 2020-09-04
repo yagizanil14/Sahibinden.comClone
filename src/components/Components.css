@@ -120,3 +120,95 @@
     margin-left: 16.5rem;
     background-color: #3388E3;
  }
+ .categoryLink{
+     color: blue;
+     text-decoration: none;
+     font-weight: 200;
+ }
+ .categoryLink:hover{
+    text-decoration: underline;
+    font-weight: 200;
+ }
+ .categoryMargin{
+     margin-top: 0.4rem;
+     margin-left: 2rem;
+ }
+ .divLeft{
+    float: left;
+}
+.divCategory{
+    width: 15rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.divShoppingText{
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+    margin: auto;
+}
+.divShoppingText:hover{
+    text-decoration: underline;
+}
+.divShopping{
+    display: inline;
+    margin: auto;
+    position: absolute;
+    width: 7rem;
+}
+.cardImg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+    margin-right: 0.7rem;
+}
+.prodImg{
+    width: 6rem;
+    height: 6rem;
+}
+.divProd{
+    display: inline;
+    vertical-align: middle;
+}
+.productsBody{
+    width: 55rem;
+    border: 1px solid #9e9e9e;
+    display: block;
+}
+.tsgDiv{
+    width: 7rem;
+    height: 2.5rem;
+    border: 1px solid #9e9e9e;
+    border-bottom: none;
+    margin-right: 0.5rem;
+    border-radius: 0.1rem;
+}
+.tsgSpanDiv{
+   margin-top: 0.5rem;
+   margin-left: 0.9rem;
+}
+.prodCompTsg{
+    display: inline-block;
+}
+.tsgSpan{
+    font-weight: bold;
+    font-size: 14px;
+    color: #1b1b1b;
+}
+.tsgDivFalse{
+    width: 7rem;
+    height: 2.5rem;
+    border: 1px solid #9e9e9e;
+    border-bottom: none;
+    background-color: #82b3c9;
+    margin-right: 0.5rem;
+    border-radius: 0.1rem;
+}
+.tsgSpanFalse{
+    color: #01579b;
+    font-weight: bold;
+    font-size: 14px;
+}
+.tsgLink{
+    text-decoration: none;
+}
