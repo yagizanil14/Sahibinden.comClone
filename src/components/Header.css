@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body {
+    height: 3.6rem;
+    width: 120rem;
+    background-color: #3F475F;
+}
+.alignItemss {
+    width: 71rem;
+    height: 3.6rem;
+    position: relative;
+    margin: auto;
+}
+.divLeft{
+    float: left;
+    margin-top: 0.7rem;
+}
+.divRight{
+    float: right;
+}
+.divFree{
+    margin-top: 0.7rem;
+    width: 9rem;
+    height: 2.2rem;
+    background-color: #489AF1;
+    border-radius: 2px;
+    margin-right: 1.5rem;
+}
+.logoImg{
+    width: 10rem;
+    height: 2.2rem;
+}
+.aFreeButton{
+    margin-top: 0.5rem;
+}
+.aFreeText{
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 1rem;
+}
+.divFree:hover{
+    background-color: #3388E3;
+}
+.divSignUp{
+    margin-top: 1.3rem;
+    margin-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+.divSignIn{
+    margin-top: 1.3rem;
+    padding-right: 0.5rem;
+    border-right:0.5px solid #9e9e9e;
+}
+.signIn-UpText{
+    color: #E0EBD2;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.divSearch{
+    all: unset;
+    width: 18rem;
+    height: 2.2rem;
+    background-color: #2F3546;
+    border-radius: 2px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    position: absolute;
+}
+.divLeftSearch{
+    float: left;
+    margin-top: 0.7rem;
+    margin-left: 7rem;
+}
+.divSearchTrue{
+    all: unset;
+    width: 18rem;
+    height: 2.2rem;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    color:black;
+    padding-left: 10px;
+    position: absolute;
+}
+::-webkit-input-placeholder {
+    color: #9e9e9e;
+    font-size: 13px;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */ 
+    color: #9e9e9e;
+    font-size: 13px;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */ 
+    color: #9e9e9e;
+    font-size: 13px;
+ }
+ 
+ :-ms-input-placeholder {   
+    color: #9e9e9e;
+    font-size: 13px;
+ }
+ .signIn-UpText:hover{
+     text-decoration: underline;
+ }
+ .searchImg{
+     width: 1.5rem;
+     height: 1.5rem;
+     position: absolute;
+     margin-left: 16.5rem;
+     margin-top: 0.3rem;
+ }
+ .searchImgTrue{
+    width: 2.2rem;
+    height: 2.2rem;
+    position: absolute;
+    margin-left: 16.5rem;
+    background-color: #3388E3;
+ }
