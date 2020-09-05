@@ -29,6 +29,16 @@ const App = () => {
     }
   }
 
+  const select = async(text) => {
+    try{
+        const descAndAsc = await axios.get(`https://fakestoreapi.com/products?sort=${text}`)
+        console.log(descAndAsc.data)
+        setData(descAndAsc.data)
+    }catch(e){
+        console.log(e)
+    }
+}
+
   return (
     <div>
       <Header searchItem={sortCategory} />
@@ -38,7 +48,7 @@ const App = () => {
           <Category Category={category} selectCategory={sortCategory} categoryLenght={data.length} />
         </div>
         <div className="divLeft divProducts">
-          <ProductsComp data={data}/>
+          <ProductsComp selectDA={select} data={data}/>
         </div>
       </div>
     </div>

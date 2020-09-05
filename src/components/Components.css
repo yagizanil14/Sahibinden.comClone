@@ -136,6 +136,9 @@
  .divLeft{
     float: left;
 }
+.divRight{
+    float: right;
+}
 .divCategory{
     width: 15rem;
     position: relative;
@@ -163,11 +166,12 @@
     margin-right: 0.7rem;
 }
 .prodImg{
-    width: 6rem;
-    height: 6rem;
+    width: 9.8rem;
+    height: 5rem;
+    vertical-align: middle;
 }
 .divProd{
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 }
 .productsBody{
@@ -211,4 +215,70 @@
 }
 .tsgLink{
     text-decoration: none;
+}
+.productsHeadImg{
+    width: 9.8rem;
+    height: 1.5rem;
+    background-color: #E9E9E9;
+    float: left;
+    margin-top: 0.5rem;
+    margin-right: 0.1rem;
+}
+.productsHeadTitle{
+    width: 37rem;
+    height: 1.5rem;
+    background-color: #E9E9E9;
+    float: left;
+    margin-top: 0.5rem;
+    margin-right: 0.1rem;
+}
+.productsHeadPrice{
+    width: 8rem;
+    height: 1.5rem;
+    background-color: #E9E9E9;
+    float: left;
+    margin-top: 0.5rem;
+}
+.productsHeadSpan{
+    display: table;
+margin-right: auto;
+margin-left: auto;
+}
+.selectSort{
+    width: 13.17rem;
+    height: 1.625rem;
+}
+.productsbod{
+    width: 55rem;
+}
+.divMBottom{
+    margin-top: 1rem;
+}
+.divProdImg{
+    width: 9.8rem;
+}
+.divProdTitle{
+    width: 37rem;
+    color: #0d47a1;
+}
+.divProdPrice{
+    width: 8rem;
+    color: #c62828;
+}
+.divProdSpan{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+.divProdFalse{
+    background-color: #ffffff;
+}
+.divProdTrue{
+    background-color: #eeeeee;
+}
+.divProdTrue:hover{
+    background-color: #f1f8e9;
+}
+.divProdFalse:hover{
+    background-color: #f1f8e9;
 }
